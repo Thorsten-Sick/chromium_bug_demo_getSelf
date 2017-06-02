@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bug optional chrome permissions",
+  "description": "Getting management permissions fails",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+  ],
+  "optional_permissions": ["management"]
+}
